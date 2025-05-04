@@ -1,0 +1,47 @@
+[
+  {
+    "doctype": "Dashboard Chart",
+    "name": "Payroll Overview",
+    "chart_name": "Payroll Overview",
+    "chart_type": "Line",
+    "document_type": "Salary Slip",
+    "based_on": "month",
+    "timespan": "Last Year",
+    "value_based_on": "net_pay",
+    "aggregation_function": "Sum",
+    "filters_json": "{}",
+    "is_custom": 1,
+    "is_public": 1,
+    "color": "Blue"
+  },
+  {
+    "doctype": "Dashboard Chart",
+    "name": "Deductions vs Allowances",
+    "chart_name": "Deductions vs Allowances",
+    "chart_type": "Pie",
+    "document_type": "Salary Slip",
+    "based_on": "employee",
+    "value_based_on": "deductions.amount",
+    "group_by_based_on": "deductions.deduction_type",
+    "aggregation_function": "Sum",
+    "filters_json": "{}",
+    "is_custom": 1,
+    "is_public": 1,
+    "color": "Green"
+  },
+  {
+    "doctype": "Dashboard Chart",
+    "name": "Total Salaries Paid",
+    "chart_name": "Total Salaries Paid",
+    "chart_type": "Bar",
+    "document_type": "Salary Slip",
+    "based_on": "month",
+    "timespan": "Last Year",
+    "value_based_on": "gross_pay",
+    "aggregation_function": "Sum",
+    "filters_json": "{}",
+    "is_custom": 1,
+    "is_public": 1,
+    "color": "Purple"
+  }
+]

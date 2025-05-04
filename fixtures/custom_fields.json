@@ -1,0 +1,53 @@
+[
+    {
+      "doctype": "Custom Field",
+      "name": "Salary Slip-show_allowances",
+      "dt": "Salary Slip",
+      "fieldname": "show_allowances",
+      "label": "عرض المخصصات",
+      "fieldtype": "Check",
+      "insert_after": "deductions",
+      "default": 1
+    },
+    {
+      "doctype": "Custom Field",
+      "name": "Salary Slip-show_deductions",
+      "dt": "Salary Slip",
+      "fieldname": "show_deductions",
+      "label": "عرض الاستقطاعات",
+      "fieldtype": "Check",
+      "insert_after": "show_allowances",
+      "default": 1
+    },
+    {
+      "doctype": "Custom Field",
+      "name": "Salary Slip-show_signature",
+      "dt": "Salary Slip",
+      "fieldname": "show_signature",
+      "label": "عرض التوقيع",
+      "fieldtype": "Check",
+      "insert_after": "show_deductions",
+      "default": 1
+    },
+    {
+      "doctype": "Custom Field",
+      "name": "Salary Slip-show_remarks",
+      "dt": "Salary Slip",
+      "fieldname": "show_remarks",
+      "label": "عرض الملاحظات",
+      "fieldtype": "Check",
+      "insert_after": "show_signature",
+      "default": 1
+    },
+    {
+      "doctype": "Custom Field",
+      "name": "Salary Slip-show_employee_details",
+      "dt": "Salary Slip",
+      "fieldname": "show_employee_details",
+      "label": "عرض تفاصيل الموظف",
+      "fieldtype": "Check",
+      "insert_after": "show_remarks",
+      "default": 1
+    }
+  ]
+  
